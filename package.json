@@ -2,7 +2,7 @@
   "name": "async-mutex-wrap",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "mutexify.js",
   "scripts": {
     "test": "mocha *.spec.js"
   },
