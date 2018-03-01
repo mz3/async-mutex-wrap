@@ -1,11 +1,15 @@
 # async-mutex-wrap
 
-Example usage:
-Prevent unnecessary database calls for the same data
+Usage:
 
 ```js
+// the library
 const mutexify = require('./mutexify')
+
+// your async function
 const lookupUserAsync = function (id) { ... }
+
+// a mutexed version that will prevent and group parallel calls
 const lookupUser = mutexify(lookupUserAsync)
 
 const app = async function (req, res) {
