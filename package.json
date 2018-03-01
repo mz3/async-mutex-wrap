@@ -1,0 +1,14 @@
+{
+  "name": "async-mutex-wrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.0.1"
+  }
+}
