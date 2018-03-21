@@ -1,6 +1,6 @@
 {
   "name": "async-mutex-wrap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "mutexify.js",
   "scripts": {

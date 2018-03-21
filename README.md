@@ -20,4 +20,4 @@ const app = async function (req, res, next) {
 }
 ```
 
-`mutexify` examples both the function body and the params passed as mutex keys. See `mutexify.spec.js` for detailed examples.
+The mutex uses both the function and the params passed as mutex keys. See `mutexify.spec.js` for detailed examples.
